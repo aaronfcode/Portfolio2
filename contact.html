@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Aaron's Portfolio</title>
 </head>
-<div class="container sect">
+<body>
+    <div class="container sect">
     <!-- top of nav -->
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
@@ -32,16 +33,16 @@
     </nav>
 </div>
     <div class="container sect contact">
-        <div class="container">
+        <div class="container contactform bg-light">
             <h2>Contact</h2>
             <form>
-                <div class="form-group"> <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
+                <div class="form-group">
                 <label for="formGroupExampleInput" class="bmd-label-floating">Your name</label>
                 <input type="text" class="form-control" id="formGroupExampleInput">
                 </div>
-                <div class="form-group bmd-form-group"> <!-- manually specified --> 
-                <label for="formGroupExampleTextarea" class="bmd-label-floating">Say what's up!</label>
-                <textarea name="" id="formGroupExampleInput2" cols="83" rows="5"></textarea>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="bmd-label-floating">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </form>
         </div>
@@ -54,4 +55,9 @@
         <a target="_blank" href="https://www.linkedin.com/">
             <img src="/Users/aaron/Development/Node/UseAPIpractice/portfolio/images/logo-linkedin.svg" height="30" width="30" alt="">
         </a>
-    </footer
+    </footer> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+</body>
+</html>
